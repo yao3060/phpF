@@ -1,0 +1,16 @@
+# Read Me
+
+…or create a new repository on the command line
+```
+echo "# phpF" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/yao3060/phpF.git
+git push -u origin master
+```
+…or push an existing repository from the command line
+```
+git remote add origin https://github.com/yao3060/phpF.git
+git push -u origin master
+```
