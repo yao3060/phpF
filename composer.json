@@ -1,0 +1,28 @@
+{
+    "name": "yao3060/phpMVC",
+    "keywords": ["php framework", "mvc"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "姚迎迎",
+            "email": "yao3060@gmail.com"
+        }
+    ],
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload": {
+        "classmap": [
+            "app/Models"
+        ]
+    },
+    "require": {
+        "illuminate/database": "^5.7",
+        "vlucas/phpdotenv": "^2.5",
+        "illuminate/hashing": "^5.7"
+    }
+}
